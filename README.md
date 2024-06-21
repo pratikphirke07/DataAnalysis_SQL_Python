@@ -12,11 +12,6 @@ The European Soccer Database is an extensive resource designed for soccer enthus
 * ***Team Lineups:*** Offers detailed squad formations with X and Y coordinates.
 * ***Betting Odds:*** Features betting odds data from up to 10 different providers.
 * ***Match Events:*** Covers comprehensive match events such as goal types, possession, corners, fouls, and more.
-<br>
-<br>
-![Database Schema](https://raw.githubusercontent.com/pratikphirke07/DataAnalysis_SQL_Python/main/Database_Schema.jpg)
-<br>
-<br>
 
 ## Overview of each SQL clause used in the project:
 
