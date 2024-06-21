@@ -13,4 +13,24 @@ The European Soccer Database is an extensive resource designed for soccer enthus
 * ***Betting Odds:*** Features betting odds data from up to 10 different providers.
 * ***Match Events:*** Covers comprehensive match events such as goal types, possession, corners, fouls, and more.
 
+## Overview of each SQL clause used in the project:
+
+* ***SELECT:*** The SELECT clause determines which columns or expressions will be included in the result set of the query. It's the primary way to specify what data you want to retrieve from the database.
+* ***FROM:*** The FROM clause specifies the tables from which to retrieve the data. It forms the foundation of the query, defining the data sources and their relationships.
+* ***JOIN:*** The JOIN clause is used to combine rows from two or more tables based on a related column between them. It allows you to merge data from different tables, enabling more complex and insightful queries.
+* ***WHERE:*** The WHERE clause is used to filter records, retaining only those that meet specific conditions. It allows you to narrow down the dataset based on criteria such as values in certain columns or comparisons between columns.
+* ***GROUP BY:*** The GROUP BY clause is used to group rows that have the same values in specified columns. It's typically used with aggregate functions like SUM, AVG, COUNT, etc., to perform calculations on each group rather than on the entire dataset.
+* ***HAVING:*** The HAVING clause is used in conjunction with the GROUP BY clause to filter group rows based on specified conditions. It's similar to the WHERE clause but operates on grouped rows rather than individual rows.
+* ***ORDER BY:*** The ORDER BY clause is used to sort the result set by one or more columns in ascending or descending order. It allows you to control the presentation of data, making it easier to read and analyze.
+* ***LIMIT:*** The LIMIT clause is used to constrain the number of rows returned by a query. It's useful for situations where you only need to see a subset of the results, such as when working with large datasets or for pagination purposes.
+* ***Common Table Expressions (CTE):*** CTEs are temporary result sets that can be referenced within a SELECT, INSERT, UPDATE, or DELETE statement. They allow you to break down complex queries into more manageable parts and improve readability.
+* ***Aggregate Functions (e.g., AVG, SUM, COUNT):*** Aggregate functions perform calculations on a set of values and return a single value.
+  *AVG: Calculates the average of a set of values.
+  *SUM: Adds up all the values in a set.
+  *COUNT: Counts the number of rows in a set.
+These functions are often used with the GROUP BY clause to perform calculations on groups of rows rather than the entire dataset.
+* ***DISTINCT:*** The DISTINCT keyword is used to eliminate duplicate rows from the result set. It ensures that only unique rows are returned, which can be useful when you want to see unique values in a column or combination of columns.
+* ***ROUND Function:*** The ROUND function is used to round a numeric value to a specified number of decimal places. It can also be used to round to the nearest integer if no decimal places are specified.
+* ***COALESCE Function:*** The COALESCE function is used to return the first non-null value in a list of expressions. It's useful for handling null values and providing a default value when a column may be null.
+  
 ## Dataset source: https://www.kaggle.com/datasets/hugomathien/soccer
