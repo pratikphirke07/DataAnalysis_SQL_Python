@@ -25,9 +25,9 @@ The European Soccer Database is an extensive resource designed for soccer enthus
 * ***LIMIT:*** The LIMIT clause is used to constrain the number of rows returned by a query. It's useful for situations where you only need to see a subset of the results, such as when working with large datasets or for pagination purposes.
 * ***Common Table Expressions (CTE):*** CTEs are temporary result sets that can be referenced within a SELECT, INSERT, UPDATE, or DELETE statement. They allow you to break down complex queries into more manageable parts and improve readability.
 * ***Aggregate Functions (e.g., AVG, SUM, COUNT):*** Aggregate functions perform calculations on a set of values and return a single value.
-  *AVG: Calculates the average of a set of values.
-  *SUM: Adds up all the values in a set.
-  *COUNT: Counts the number of rows in a set.
+  * AVG: Calculates the average of a set of values.
+  * SUM: Adds up all the values in a set.
+  * COUNT: Counts the number of rows in a set.
 These functions are often used with the GROUP BY clause to perform calculations on groups of rows rather than the entire dataset.
 * ***DISTINCT:*** The DISTINCT keyword is used to eliminate duplicate rows from the result set. It ensures that only unique rows are returned, which can be useful when you want to see unique values in a column or combination of columns.
 * ***ROUND Function:*** The ROUND function is used to round a numeric value to a specified number of decimal places. It can also be used to round to the nearest integer if no decimal places are specified.
