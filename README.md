@@ -12,3 +12,5 @@ The European Soccer Database is an extensive resource designed for soccer enthus
 * ***Team Lineups:*** Offers detailed squad formations with X and Y coordinates.
 * ***Betting Odds:*** Features betting odds data from up to 10 different providers.
 * ***Match Events:*** Covers comprehensive match events such as goal types, possession, corners, fouls, and more.
+
+## Dataset source: https://www.kaggle.com/datasets/hugomathien/soccer
