@@ -32,5 +32,12 @@ These functions are often used with the GROUP BY clause to perform calculations 
 * ***DISTINCT:*** The DISTINCT keyword is used to eliminate duplicate rows from the result set. It ensures that only unique rows are returned, which can be useful when you want to see unique values in a column or combination of columns.
 * ***ROUND Function:*** The ROUND function is used to round a numeric value to a specified number of decimal places. It can also be used to round to the nearest integer if no decimal places are specified.
 * ***COALESCE Function:*** The COALESCE function is used to return the first non-null value in a list of expressions. It's useful for handling null values and providing a default value when a column may be null.
-  
+
+## Import libraries used for Data Manipulation and Visualization in Python:
+* ***pyodbc:*** Provides access to ODBC databases, allowing you to connect to and interact with various database management systems.
+* ***pandas:*** Offers data structures and tools for data manipulation and analysis. It's particularly useful for working with tabular data.
+* ***sqlite3:*** Provides a lightweight disk-based database that doesn't require a separate server process. It's useful for managing small to medium-sized databases.
+* ***matplotlib.pyplot:*** A plotting library for creating static, animated, and interactive visualizations in Python. It's commonly used for basic plotting needs.
+* ***seaborn:*** Built on top of matplotlib, seaborn provides a high-level interface for drawing attractive and informative statistical graphics. It's particularly useful for enhancing the aesthetics of your plots.
+
 ## Dataset source: https://www.kaggle.com/datasets/hugomathien/soccer
