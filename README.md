@@ -17,6 +17,7 @@ The European Soccer Database is an extensive resource designed for soccer enthus
 ![databaseschema](https://github.com/pratikphirke07/DataAnalysis_SQL_Python/blob/main/Database_Schema.jpg)
 <br>
 <br>
+
 ## Overview of each SQL clause used in the project:
 
 * ***SELECT:*** The SELECT clause determines which columns or expressions will be included in the result set of the query. It's the primary way to specify what data you want to retrieve from the database.
