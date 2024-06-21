@@ -14,7 +14,7 @@ The European Soccer Database is an extensive resource designed for soccer enthus
 * ***Match Events:*** Covers comprehensive match events such as goal types, possession, corners, fouls, and more.
 <br>
 <br>
-![alt text](https://github.com/pratikphirke07/DataAnalysis_SQL_Python/blob/main/Database_Schema.jpg)
+![(https://github.com/pratikphirke07/DataAnalysis_SQL_Python/blob/main/Database_Schema.jpg)]
 <br>
 <br>
 ## Overview of each SQL clause used in the project:
